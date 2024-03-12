@@ -9,19 +9,21 @@
 <body>
     <title>le plus grand nombre d’un tableau</title>
 </body>
-<!-- <script type="text/javascript" src="index.js"></script> -->
+<!-- Premier script -->
 <script type="text/javascript">
     console.log("HelloWorld");
     // Mon tableau de nombres
-let tab = [10, 8, 30, 22, 50, 100, 106, 31, 45];
-
-// Je "sort" mon tableau
-tab.sort((a, b) => {
-    if(a < b) return -1;
-    if(a > b) return 1;
-    return 0;
-})
-// Mon tableau est trié par valeurs ascendantes
-console.log(tab);
+    let tab = [10, 8, 30, 22, 50, 100, 106, 31, 45];
+    
+    // Je "sort" mon tableau
+    tab.sort((a, b) => {
+        if(a < b) return -1;
+        if(a > b) return 1;
+        return 0;
+    })
+    // Mon tableau est trié par valeurs ascendantes
+    console.log(tab);
 </script>
+<!-- Second script -->
+<script type="text/javascript" src="index.js"></script> 
 </html>
